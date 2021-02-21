@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Quicki</title>
+</head>
+
+<body>
+    <!-- Information and Form -->
+    <div class="container">
+        <div class="justify-content-center">
+            <div class="logo-outer-div">
+                <div class="logo-inner-div">
+                    <img src="assets/images/logo.png" alt="logo" class="img-fluid logo" width="278.4">
+                </div>
+            </div>
+            <h2>
+                Are people in your area aware of all the unique products and promotions in your shop? Attract and Sell to a new demographic of customers and make more money. Save more than &euro;600 and get a FREE SETUP
+            </h2>
+            <h3 class="center">
+                Do you spend a lot of time taking pictures and uploading on facebook and instagram with no success? With more lockdowns, it is important now than ever to promote and attract new customers to your products online. This is our specialty.
+            </h3>
+
+            <form method="POST" id="emailform">
+                <div class="alert alert-success" role="alert">
+                    Email Received
+                    </div>
+                <div class="col-8 mx-auto mb-2 text-center">
+                    <label class="form-label col-form-label" for="email"><h4 class="h4-margin">Please provide your details and we will contact you when our app is ready. <br>We will not spam you</h4></label>
+                    <input type="email" name="email" placeholder="Enter your email address" id="email" class="form-control" required />
+                </div>
+                <div class="col text-center">
+                    <button type="submit" class="btn btn-primary button" sendMessage()><h4>Submit</h4></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="middle">
+        <!-- About -->
+        <div class="container">
+            <div class="justify-content-center">
+                <h2>About Us</h2>
+                <h3 class="center">
+                    We built a really cool app that allows you to take pictures of your products on your shelf and upload them to your online store/ social media.We are a company solely focused on helping the small food and multicultural grocery shops in the local community to compete with larger supermarkets. How you ask?
+
+                </h3>
+                <ol>
+                    <li class="fs-3">
+                        We bring new customers to your shop using our unique promotions mobile app.This app does the marketing and advertising for you and helps you reach a bigger audience outside of your own community of people.
+                    </li>
+                    <li class="fs-3">
+                        Save money and time creating, photoshopping and uploading your promotions online.
+                    </li>
+                    <li class="fs-3">
+                        Plan for the future and create your catalogue using just your phone camera. You can then move this catalogue to your e-commerce website.
+                    </li>
+                </ol>
+            </div>
+        </div>
+
+        <!-- How it works -->
+        <div class="container">
+            <div class="justify-content-center">
+                <h3 class="margin center">How does Quicki work?</h3>
+                <div class="row">
+                    <div class="col-lg-4 col-7 px-0 mx-auto">
+                        <img src="assets/images/pic_1.png" alt="phone_taking_a_pic" class="images img-fluid">
+                        <h3 class="center">
+                            1. You create a promotion for your product and add your price and description.
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 col-7 px-0 mx-auto">
+                        <img src="assets/images/pic_2.png" alt="Quicki_app" class="images img-fluid">
+                        <h3 class="center">
+                            2. Your promotion will automatically appear in the Shopik App and will be visible to all the people in your area. They have to follow your shop to see your promotions or catalogue.
+                        </h3>
+                    </div>
+                    <div class="col-lg-4 col-7 px-0 mx-auto">
+                        <img src="assets/images/pic_3.png" alt="Using_NFC" class="images img-fluid">
+                        <h3 class="center">
+                            3. Customers will then visit your shop, spend money and earn points or vouchers by tapping their phones on Near Field Communication (NFC) tags or QR codes.
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- How were different -->
+        <div class="container">
+            <div class="justify-content-center">
+                <h2 class="margin">How are we different?</h2>
+                <h3 class="center">
+                    See how we compare to other tools / platforms you use on a daily basis
+                </h3>
+                <img src="assets/images/pic_4.png" alt="chart" class="img-fluid">
+                <h3 class="bottom center">
+                    If you are interested for a free trial please sign up <a href="#emailform">here</a> now.
+                </h3>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <div class="footer">
+        <div class="outer-box">
+            <div class="another-box">
+                <div class="inner-box">
+                    <div class="element">
+                        <div class="inner-element">
+                            <a href="https://www.facebook.com/buyshopik" target="_blank">
+                                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-facebook-96.png" alt="Facebook" class="social-media-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <div class="inner-element">
+                            <a href="https://www.instagram.com/buyshopik/?hl=en" target="_blank">
+                                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-instagram-96.png" alt="Instagram" class="social-media-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <div class="inner-element">
+                            <a href="https://www.shopik.io" target="_blank">
+                                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-link-96.png" alt="Website" class="social-media-icon">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="element">
+                        <div class="inner-element">
+                            <a href="mailto:shopikinfo@gmail.com" target="_blank">
+                                <img src="https://eep.io/mc-cdn-images/icons/social-block-v2/color-forwardtofriend-96.png" alt="Email" class="social-media-icon">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="social-media">
+            
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-database.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
